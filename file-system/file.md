@@ -18,7 +18,7 @@ Consists primarily of:
 ## Tree
 
 File system in linux:
-![File tree](/home/sebastian/Documents/git/missing-semester/svgs/graphviz.svg)
+<img src="./svgs/graphviz.svg" width="600px">
 
 ---
 
@@ -45,7 +45,7 @@ Relative path works because git is in the directory we are standing in
 - \> cd git
 
 Absolute path works from anywhere
-- \> cd /home/<username>/Documents/git
+- \> cd /home/\<username\>/Documents/git
 - \> cd ~/Documents/git
 
 ---
@@ -91,3 +91,5 @@ Absolute path: `:l ~/Documents/git/kmonad/Main.hs`
 * "cd -" to switch between last two visited directories
 * "ls -a" show hidden files (files starting with a dot, e.g .gitignore)
 * "cd" without arguments to move to home directory
+* "cp" copy a file
+* "mv" move a file
