@@ -31,6 +31,8 @@ File system in linux:
 - rmdir (remove directory)
 - touch (create file)
 - rm (remove file)
+- cp (copy a file)
+* mv (move a file)
 
 ---
 
@@ -91,5 +93,3 @@ Absolute path: `:l ~/Documents/git/kmonad/Main.hs`
 * "cd -" to switch between last two visited directories
 * "ls -a" show hidden files (files starting with a dot, e.g .gitignore)
 * "cd" without arguments to move to home directory
-* "cp" copy a file
-* "mv" move a file
